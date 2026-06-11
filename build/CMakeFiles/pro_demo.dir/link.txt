@@ -1,3 +1,0 @@
-D:\cmake\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\pro_demo.dir/objects.a
-D:\C-TOOLS\Vscode\mingw64\bin\ar.exe qc CMakeFiles\pro_demo.dir/objects.a @CMakeFiles\pro_demo.dir\objects1.rsp
-D:\C-TOOLS\Vscode\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\pro_demo.dir/objects.a -Wl,--no-whole-archive -o pro_demo.exe -Wl,--out-implib,libpro_demo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pro_demo.dir\linkLibs.rsp

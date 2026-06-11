@@ -1,3 +1,0 @@
-D:/Desk/Template_demo/build/CMakeFiles/pro_demo.dir
-D:/Desk/Template_demo/build/CMakeFiles/edit_cache.dir
-D:/Desk/Template_demo/build/CMakeFiles/rebuild_cache.dir

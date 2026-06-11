@@ -9,13 +9,15 @@
     C/C++
     CMake
     ...
-- MinGW下载 https://sourceforge.net/projects/mingw-w64/   
-    >1   
+- MinGW下载 https://github.com/niXman/mingw-builds-binaries/releases   
+    >选择x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1.7z   
+    当前最新版本为16.1.0   
+    这是已经编译好的，需要配置系统环境变量
 - CMake下载 https://cmake.org/download/   
     >进入下载页面选择Binary distributions下的 *windows x64 installer* 或者 *windows x64 zip*   
     installer类似于安装包   
     zip需要配置系统环境变量(建议)   
-- 下载完成后，打开任意终端输入以下命令行，有版本输出，即环境搭建完成
+- 下载完成后，打开任意终端输入以下命令行，有版本输出，即环境搭建完成   
     ```shell
     cmake --version
     gcc --version
@@ -32,6 +34,9 @@ mkdir build
 cd build
 cmake -G "MinGW Makefiles" ..
 cd ..
+cmake --build build
+--------------------------------------------------或者
+cmake -S . -B build -G "MinGW Makefiles"
 cmake --build build
 ```
 
