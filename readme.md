@@ -39,4 +39,5 @@ cmake --build build
 cmake -S . -B build -G "MinGW Makefiles"
 cmake --build build
 ```
+调试点击F5或者Ctrl+Shift+B即可进入调试，但是进入调试前需要修改.vscode文件夹下的文件，主要是文件中的编译器以及调试器路径   
 
